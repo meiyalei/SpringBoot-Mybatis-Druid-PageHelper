@@ -36,7 +36,7 @@ druid:
 mybatis:
   type-aliases-package: cn.howieli.boot.model
   mapper-locations:
-  - classpath*:cn/howieli/boot/mapper/*.xml
+  - classpath:mapper/*.xml
 
 #分页插件配置
 pagehelper:
